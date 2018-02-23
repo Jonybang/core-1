@@ -81,6 +81,7 @@ function paintCellsByColumnsAndRows(gc) {
     this.visibleColumns.forEachWithNeg(function(vc, c) {
 
         cellEvent = pool[p];
+        console.log(cellEvent);
         vc = cellEvent.visibleColumn;
 
         if (!rowPrefillColors) {
